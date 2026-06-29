@@ -1,0 +1,50 @@
+canonical_identifier: bkk:krp/KR3f0010/v1
+canonical_location: https://kanripo.org/bkk/KR3f0010/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 表度說
+  date: '2015-08-24 23:09:25.138095'
+  source:
+    repository: kanripo
+    path: KR3f0010
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR3f0010_000.yaml, hash: 'sha256:29a51fcacc7294b3cda2eba92b7e9bff9c05d819d12dd52e39093b40ccb29777'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3f0010_000.markers.yaml, hash: 'sha256:36cb6bc7e8f2751195ce9303d3102297ba962ee8122ffcecab64e8383bebc1ee'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3f0010_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 916
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3f0010_WYG_000-5a
+    span:
+    - body
+    - 916
+    - 11119
+  label: 表度説
+  type: section
+  level: 1
+hash: sha256:6b55c932f5cc09a95c967a6a2c3047675db6c5faf99d713dc2badff8943d3fb4
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
